@@ -7,7 +7,12 @@ public class Main {
 		int end = 5;
 		
 		for (int current = start; current <= end; current++) {
-			System.out.println(current);
+			if (current % 3 == 0) {
+				System.out.println("foo");
+			}
+			else {
+				System.out.println(current);
+			}
 		}
 	}
 
