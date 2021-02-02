@@ -25,6 +25,8 @@ public class Main {
 			for (int i : arr2) {
 				if (current == i) {
 					System.out.println(skipByFive);
+					
+					notFoundInArrays = false;
 				}
 			}
 			
